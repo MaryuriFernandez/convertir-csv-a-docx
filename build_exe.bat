@@ -9,7 +9,7 @@ echo. > %LOG%
 
 REM 1) Buscar Python: primero el lanzador "py", luego "python".
 set PY=
-py -3 --version >nul 2>&1 && set PY=py -3
+py -3.13 --version >nul 2>&1 && set PY=py -3.13
 if not defined PY python --version >nul 2>&1 && set PY=python
 if not defined PY (
     echo [ERROR] No se encontro Python. Instalalo desde https://www.python.org/downloads/ marcando "Add python.exe to PATH".
