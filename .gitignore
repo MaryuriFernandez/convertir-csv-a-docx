@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Empaquetado del .exe
+build/
+dist/
+*.spec
+
+# Salidas de la conversión y datos reales
+salida_word/
+jerarquia_pendiente.csv
+*.docx
+!ejemplos/*.docx
+
+# Editor / sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+build.log
